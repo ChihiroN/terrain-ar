@@ -1,6 +1,0 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-descroption: Terrain 3D DisSplay test site.
-remote_thema: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-themeß
