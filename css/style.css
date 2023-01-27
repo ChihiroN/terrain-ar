@@ -68,6 +68,7 @@ body {
 }
 #display {
   position: relative;
+  justify-content: center;
   width: 100%;
   padding:0 10px;
   text-align: center;
@@ -81,7 +82,7 @@ body {
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
-  background-color:rgba(205,206,212,0.4);
+  background-color:rgba(205,206,212,0.15);
 }
 
 h2 {
@@ -119,6 +120,9 @@ p {
   h1 {
     font-size: 15px;
   }
+  h2 {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 100px) {
@@ -126,6 +130,12 @@ p {
     font-size: 15px;
   }
   h1::after {
+    height: 8px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h2::after {
     height: 8px;
   }
 }
@@ -138,6 +148,12 @@ p {
     font-size: 15px;
   }
   h1::after {
+    height: 6px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h2::after {
     height: 6px;
   }
   p {
@@ -153,6 +169,12 @@ p {
     font-size: 15px;
   }
   h1::after {
+    height: 4px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h2::after {
     height: 4px;
   }
 }
