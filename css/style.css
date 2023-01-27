@@ -92,7 +92,7 @@ p {
   display: inline-block;
   border-bottom: solid 4px #fff;
 } */
-/* h2::after {
+h2::after {
   content: '';
   width: 60%;
   display: block;
@@ -100,16 +100,8 @@ p {
   height: 10px;
   margin: 30px auto;
   line-height: 1.1;
-} */
-#intro::after {
-  content: '';
-  width: 60%;
-  display: block;
-  background: #fff;
-  height: 10px;
-  margin: 20px auto;
-  line-height: 1.1;
 }
+
 /* scroll */
 .container {
   position: absolute;
@@ -172,11 +164,17 @@ p {
   }
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 275px) {
   h1 {
     font-size: 15px;
   }
-  h1::after {
-    height: 4px;
+  h2::after {
+    content: '';
+    width: 60%;
+    display: block;
+    background: #fff;
+    height: 5px;
+    margin: auto;
+    line-height: 0.1;
   }
 }
