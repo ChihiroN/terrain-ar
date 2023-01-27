@@ -81,6 +81,7 @@ p {
   font-weight: 120;
   color: #ffffff;
   letter-spacing: 0.05em;
+  justify-content: center;
 }
 /* h1{
   text-transform: uppercase;
