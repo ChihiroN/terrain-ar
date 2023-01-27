@@ -78,8 +78,6 @@ body {
   grid-template-rows:1fr 1fr 1fr;   
 }
 .grid-child {
-  max-width: 50%;
-  min-height: 90px;
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
