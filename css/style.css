@@ -81,8 +81,7 @@ body {
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
-  background-color:#fefefe,25;
-  opacity: 0.5;
+  background-color:rgba(205,206,212,0.4);
 }
 
 h2 {
