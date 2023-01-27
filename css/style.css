@@ -79,7 +79,7 @@ body {
 #intro {
   /* position: absolute; */
   left: 0;
-  top: 50%;
+  top: 0;
   padding: 0 10px;
   width: 100%;
   text-align: center;
@@ -87,17 +87,17 @@ body {
 #display {
   padding: 0 10px;
   text-align: center;
+  background-color: rgba(240,240,240,0.15);
 }
 
-h2 {
+#intro h2 {
+  position: absolute;
+  bottom: 90%;
   text-transform: uppercase;
   font-size: 50px;
   font-weight: 120;
   color: #ffffff;
   letter-spacing: 0.05em;
-
-  /* display: inline-block;
-  border-bottom: solid 4px #fff; */
 }
 /* h1{
   text-transform: uppercase;
