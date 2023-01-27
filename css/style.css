@@ -91,13 +91,22 @@ p {
   display: inline-block;
   border-bottom: solid 4px #fff;
 } */
-h2::after {
+/* h2::after {
   content: '';
   width: 60%;
   display: block;
   background: #fff;
   height: 10px;
   margin: 30px auto;
+  line-height: 1.1;
+} */
+.container::before {
+  content: '';
+  width: 60%;
+  display: block;
+  background: #fff;
+  height: 10px;
+  margin: 20px auto;
   line-height: 1.1;
 }
 /* scroll */
