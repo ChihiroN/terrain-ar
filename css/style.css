@@ -178,3 +178,18 @@ h2::after {
     line-height: 0.1;
   }
 }
+
+@media only screen and (max-height: 275px) {
+  h1 {
+    font-size: 15px;
+  }
+  h2::after {
+    content: '';
+    width: 60%;
+    display: block;
+    background: #fff;
+    height: 5px;
+    margin: auto;
+    line-height: 0.1;
+  }
+}
